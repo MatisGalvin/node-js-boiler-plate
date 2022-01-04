@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@babel/cli@^7.5.5":
+"@babel/cli@latest":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.16.7.tgz#4184b5ec6a22106e9dd64bbcaa2eb22675ff595d"
   integrity sha512-0iBF+G2Qml0y3mY5dirolyToLSR88a/KB6F2Gm8J/lOnyL8wbEOHak0DHF8gjc9XZGgTDGv/jYXNiapvsYyHTA==
@@ -30,7 +30,7 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.16.4.tgz#081d6bbc336ec5c2435c6346b2ae1fb98b5ac68e"
   integrity sha512-1o/jo7D+kC9ZjHX5v+EHrdjl3PhxMrLSOTGsOdHJ+KL8HCaEK6ehrVL2RS6oHDZp+L7xLirLrPmQtEng769J/Q==
 
-"@babel/core@^7.5.5":
+"@babel/core@latest":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.16.7.tgz#db990f931f6d40cb9b87a0dc7d2adc749f1dcbcf"
   integrity sha512-aeLaqcqThRNZYmbMqtulsetOQZ/5gbR/dWruUCJcpas4Qoyy+QeagfDsPdMrqwsPRDNxJvBlRiZxxX7THO7qtA==
@@ -773,7 +773,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/preset-env@^7.5.5":
+"@babel/preset-env@latest":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.16.7.tgz#c491088856d0b3177822a2bf06cb74d76327aa56"
   integrity sha512-urX3Cee4aOZbRWOSa3mKPk0aqDikfILuo+C7qq7HY0InylGNZ1fekq9jmlr3pLWwZHF4yD7heQooc2Pow2KMyQ==
@@ -920,7 +920,7 @@
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz#323d72dd25103d0c4fbdce89dadf574a787b1f9b"
   integrity sha512-s88O1aVtXftvp5bCPB7WnmXc5IwOZZ7YPuwNPt+GtOOXpPvad1LfbmjYv+qII7zP6RU2QGnqve27dnLycEnyEQ==
 
-"@types/mongoose@latest":
+"@types/mongoose@^5.11.97":
   version "5.11.97"
   resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.11.97.tgz#80b0357f3de6807eb597262f52e49c3e13ee14d8"
   integrity sha512-cqwOVYT3qXyLiGw7ueU2kX9noE8DPGRY6z8eUxudhXY8NZ7DMKYAxyZkLSevGfhCX3dO/AoX5/SO9lAzfjon0Q==
@@ -2012,7 +2012,7 @@ mongodb@4.2.2:
   optionalDependencies:
     saslprep "^1.0.3"
 
-mongoose@*, mongoose@latest:
+mongoose@*, mongoose@^6.1.4:
   version "6.1.4"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-6.1.4.tgz#a414e64c849fae3ced99348e9de73f986c9f0551"
   integrity sha512-RsNiMpGWo7OXFmq5xt0ZWYt2rabHLxNYr0oAiR0xDv23lHKCkXDqyDl71+sXF9rcWEe8BTHG+1IRQykiNBvaKQ==
