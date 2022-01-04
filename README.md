@@ -4,10 +4,11 @@ A Node.js boilerplate with ES6, ESLint, and Prettier, and Mocha
 
 ## Getting started
 
-``` npm i ````
+Installation :
+``` npm i ```
 
-For tests :
-```npm test```
+Run tests :
+``` npm test ```
 
-To start the server :
+Run server :
 ``` npm start ```
