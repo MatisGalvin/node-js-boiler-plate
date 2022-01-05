@@ -11,14 +11,8 @@ before((done) => {
     });
 });
 
-beforeEach(
-  "Supprime les anciens livres et les anciens users avant chaque tests",
-  (done) => {
-    const { books, users } = mongoose.connection.collections;
-    books.drop(() => {
-      users.drop(() => {
-        done();
-      });
-    });
-  }
-);
+beforeEach("Supprime les données", (done) => {
+  mongoose.connection.dropDatabase().then(() => {
+    done();
+  });
+});
