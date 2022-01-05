@@ -13,6 +13,9 @@ const UserSchema = new Schema({
   ],
 });
 
+UserSchema.virtual("countBooks").get(function() {
+  return this.books.length;
+});
 //Création d'un model de Book basée sur le Schema défini.
 const User = mongoose.model("user", UserSchema);
 
